@@ -1,6 +1,7 @@
-# Portfolio Optimization Project
+# Integrated Asset Selection and Allocation for Portfolio Optimization
 
-This project aims to identify and track an optimal portfolio using historical data and Python-based financial analysis techniques. The portfolio is selected based on the Sharpe ratio, a measure of risk-adjusted return.
+This project explores portfolio optimization through an integrated approach that combines asset selection and allocation, 
+aiming to construct multiple portfolios with an optimal risk-adjusted return and selecting the top-performing portfolio. 
 
 ## Project Structure
 
@@ -33,5 +34,8 @@ The project consists of three main Python files:
 
 ## Notes
 
-- Ensure that the necessary data files (`backtest_df.csv`, `backtest_rf.csv`, and `securities_dict.json`) are available in the same directory.
-- The optimization relies on risk-free rate data and the covariance matrix calculated from historical returns.
+- Ensure that the necessary data files: (`backtest_df.csv`, `backtest_rf.csv`,
+                                        `frwdtest_df.csv`, `frwdtest_mk.csv`,
+                                        `securities_dict.json`, `optimal_portfolio.json`)
+  are available in the same directory.
+  
